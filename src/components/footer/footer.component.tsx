@@ -5,7 +5,6 @@ import Image from "next/image";
 import CertificateLogo from "@/assets/logo/certificate.svg";
 import EnamadLogo from "@/assets/logo/enamad.svg";
 import SamandehiLogo from "@/assets/logo/idk.svg";
-import DrLogo from "@/assets/logo/dr.svg";
 import MingcuteYoutubeFill from "@/assets/icons/MingcuteYoutubeFill";
 import MingcuteLinkedinFill from "@/assets/icons/MingcuteLinkedinFill";
 import MingcuteTelegramFill from "@/assets/icons/MingcuteTelegramFill";

@@ -7,12 +7,12 @@ type HeaderLink = {
 export const headerLinksData: HeaderLink[] = [
   {
     id: 1,
-    name: "Home",
+    name: "خانه",
     path: "/",
   },
   {
     id: 2,
-    name: "Search",
+    name: "جستجو",
     path: "/search",
   },
 ];
