@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
+
+import { Header } from "@/components/header/header.component";
+
 import "./globals.css";
+import Footer from "@/components/footer/footer.component";
 
 const vazirmatn = Vazirmatn({
   subsets: ["latin", "arabic"],
@@ -19,7 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl" className={vazirmatn.className}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main>{children}</main>
+        <p className="tagline">
+          این یک پلتفرم جستجو خدمات پزشکی رزرو و نوبت دهی آنلاین است.
+        </p>
+        <Footer />
+      </body>
     </html>
   );
 }
