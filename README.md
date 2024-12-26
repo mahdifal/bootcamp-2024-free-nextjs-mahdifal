@@ -1,5 +1,7 @@
 # Online medical appointment platform
 
+Visit [Demo](https://online-visit-doctor.vercel.app) App.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
