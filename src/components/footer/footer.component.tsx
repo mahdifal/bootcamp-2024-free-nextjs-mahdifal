@@ -9,7 +9,7 @@ import MingcuteYoutubeFill from "@/assets/icons/MingcuteYoutubeFill";
 import MingcuteLinkedinFill from "@/assets/icons/MingcuteLinkedinFill";
 import MingcuteTelegramFill from "@/assets/icons/MingcuteTelegramFill";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.writings}>
@@ -60,5 +60,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
